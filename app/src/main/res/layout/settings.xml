@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+
+    android:clickable="true"
+    android:isScrollContainer="true"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    style="@style/settings_item"
+    android:background="@color/white_alpha"
+     >
+     <TextView
+         android:id="@+id/settings_home_emo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:drawableLeft="@drawable/emo_im_happy"
+		android:text="@string/settings_emo_head"
+		style="@style/sub_heading"
+		/>
+
+	<RelativeLayout 
+	    style="@style/tab"
+	    >
+	    <CheckBox 
+	         android:id="@+id/settings_emo_check"
+			 android:layout_width="match_parent"
+			 android:layout_height="wrap_content"
+			 android:text="@string/settings_emo_text"
+	         />
+	</RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/settings_sms_pod"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    style="@style/settings_item"
+    android:background="@color/white_alpha"
+     >
+	
+	 <TextView
+         android:id="@+id/settings_home_sms"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:drawableLeft="@drawable/i_sms"
+		android:text="@string/settings_sms_head"
+		style="@style/sub_heading"
+		/>
+	<RelativeLayout 
+	    style="@style/tab"
+	    >
+     <CheckBox 
+         android:id="@+id/settings_sms_check"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_sms_text"
+         />
+	</RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/settings_open_brief"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    style="@style/settings_item"
+    android:background="@color/white_alpha"
+     >
+	 <CheckBox 
+         android:id="@+id/settings_brief_open_unlock"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_brief_on_unlock"
+		 android:drawableLeft="@drawable/i_brief"
+         />
+	 <TextView
+         android:id="@+id/settings_home_warn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/settings_brief_unlock_desc"
+		android:paddingLeft="30dp"
+		android:drawableLeft="@drawable/warning"
+		/>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:background="@color/white_alpha"
+    >
+    <TextView 
+        android:id="@+id/phone_item_time"
+        android:layout_width="50dp"
+	     android:layout_height="55dp"
+	     style="@style/text_small"
+	     
+	     android:paddingLeft="3dp"
+        />
+	<RelativeLayout 
+	     android:layout_width="60dp"
+	     android:layout_height="60dp"
+	    >
+		<ImageView
+         android:id="@+id/image_contact"
+	     android:layout_width="80dp"
+	     android:layout_height="80dp"
+         android:src="@drawable/social_person"
+         />
+	</RelativeLayout>
+	<LinearLayout
+	     android:layout_width="0dp"
+	     android:layout_height="wrap_content"
+	     android:orientation="vertical"
+	     android:paddingLeft="5dp"
+	     android:paddingRight="5dp"
+	     android:layout_weight="1"
+	     >
+		<TextView
+			android:id="@+id/field_name" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+			/>
+		<TextView
+			android:id="@+id/field_phone_number" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			style="@style/heading_phone_number"
+
+			/>
+
+		
+	</LinearLayout>
+
+</LinearLayout>

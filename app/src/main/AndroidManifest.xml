@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="run.brief"
+    android:versionCode="14"
+    android:versionName="3.01"
+    android:installLocation="internalOnly"
+     >
+
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:required="false" android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:required="false" android:name="android.permission.READ_SMS" />
+    <uses-permission android:required="false" android:name="android.permission.SEND_SMS" />
+    <uses-permission android:required="false" android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:required="false" android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:required="false" android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.NETWORK"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!--
+<uses-permission android:name="android.permission.READ_CONTACTS"/>
+<uses-permission android:required="false" android:name="android.permission.WRITE_SMS" />
+<uses-permission android:required="false" android:name="android.permission.READ_SMS" />
+<uses-permission android:required="false" android:name="android.permission.SEND_SMS" />
+<uses-permission android:required="false" android:name="android.permission.RECEIVE_SMS" />
+<uses-permission android:name="com.android.vending.BILLING" />
+<uses-permission android:required="false" android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:required="false" android:name="android.permission.CHANGE_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+<uses-permission android:required="false" android:name="android.permission.CHANGE_WIFI_STATE"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:required="false" android:name="android.permission.READ_CALL_LOG"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-feature android:required="false" android:name="android.hardware.camera" />
+<uses-permission android:name="android.permission.VIBRATE" />
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name="android.permission.NETWORK"/>
+<uses-permission android:name="android.permission.WAKE_LOCK"/>
+    -->
+
+    <supports-screens 
+        android:resizeable="true"
+		android:smallScreens="false" 
+		android:normalScreens="true"
+		android:largeScreens="true"
+		android:xlargeScreens="true"
+		android:anyDensity="true"
+		/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme"
+        android:logo="@drawable/icon"
+        android:hardwareAccelerated="true"
+        >
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+          android:uiOptions="splitActionBarWhenNarrow"
+
+
+                      android:launchMode="singleTask"
+          -->
+        <activity
+            android:name="run.brief.Main"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:launchMode="singleTask"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+                <data android:scheme="email" />
+
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <data android:scheme="mailto"/>
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+
+<!--
+        <activity android:name="run.brief.settings.AccountGoogleActivity"
+            >
+            <intent-filter>
+                <action android:name="run.brief.add.google" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:name="run.brief.ComposeNewActivity"
+            android:launchMode="singleTask"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+                <data android:scheme="email" />
+
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <data android:scheme="mailto"/>
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <data android:mimeType="*/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+-->
+        <!--
+    <intent-filter>
+        <action android:name="android.intent.action.SEND"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="image/*"/>
+        <data android:mimeType="text/plain"/>
+    </intent-filter>
+
+-->
+        <service android:name="run.brief.service.BriefService"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </service>
+
+
+
+        <service android:name="run.brief.service.P2pChatService" >
+        </service>
+
+        <!--
+
+
+        <receiver android:name="run.brief.util.widget.WatchWidget" android:label="WatchWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/watch_widget_provide" />
+        </receiver>
+
+
+
+
+
+		<service android:name="org.teleal.cling.android.AndroidUpnpServiceImpl"/>
+        -->
+
+<!--
+        <receiver android:name="run.brief.service.OpenDocument">
+            <intent-filter>
+                <action android:name="android.intent.action.OPEN_DOCUMENT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sms" />
+                <data android:scheme="email" />
+                <data android:scheme="file" />
+                <data android:path="path"/>
+                <data android:pathPattern="pathPattern"/>
+            </intent-filter>
+        </receiver>
+-->
+        <receiver android:name="run.brief.service.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- BroadcastReceiver that listens for incoming MMS messages -->
+        <receiver android:name="run.brief.service.MmsReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        <receiver android:name=".service.SmsReceiver" >
+        <intent-filter android:priority="1000">
+            <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+
+
+            <action android:name="android.provider.Telephony.SMS_DELIVER_ACTION" />
+            <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER_ACTION" />
+            <action android:name="android.provider.Telephony.ACTION_RESPOND_VIA_MESSAGE" />
+            <action android:name="android.provider.Telephony.SEND_RESPOND_VIA_MESSAGE" />
+            <action android:name="android.provider.Telephony.ACTION_SENDTO" />
+
+        </intent-filter>
+        </receiver>
+        -->
+<!--
+        <activity
+            android:name="run.brief.util.voip._MAIN"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="run.brief.util.voip._CLIENT"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="run.brief.util.voip.th_clientThread"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+-->
+        
+<!-- CHAT activity's convert to fragments -->
+        <!--
+		<activity android:name="run.brief.chat.FriendList">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category
+					android:name="android.intent.category.NORMAL">
+				</category>
+			</intent-filter>
+		</activity>
+		<service android:name="run.brief.chat.IMService"></service>
+		
+		<activity android:name="run.brief.chat.Login">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category android:name="android.intent.category.NORMAL">
+				</category>
+			</intent-filter>
+		</activity>
+		<activity android:name="run.brief.chat.Messaging">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category
+					android:name="android.intent.category.NORMAL">
+				</category>
+			</intent-filter>
+		</activity>
+		
+
+	<activity android:name="run.brief.chat.SignUp"><intent-filter><action android:name="android.intent.action.MAIN"></action>
+<category android:name="android.intent.category.NORMAL"></category>
+</intent-filter>
+</activity>
+<activity android:name=".AddFriend"><intent-filter><action android:name="android.intent.action.MAIN"></action>
+<category android:name="android.intent.category.NORMAL"></category>
+</intent-filter>
+</activity>
+<activity android:name=".UnApprovedFriendList"><intent-filter><action android:name="android.intent.action.MAIN"></action>
+<category android:name="android.intent.category.NORMAL"></category>
+</intent-filter>
+</activity>
+
+    -->
+
+
+<!-- END CHAT activity's convert to fragments -->
+
+
+        <!--
+        <service
+            android:label="@string/app_name"
+            android:name=".SampleSpellCheckerService"
+            android:permission="android.permission.BIND_TEXT_SERVICE" >
+            <intent-filter >
+                <action android:name="android.service.textservice.SpellCheckerService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.textservice.scs"
+                android:resource="@xml/spellchecker" />
+        </service>
+        -->
+
+        
+
+         <!--
+		<service
+            android:label="@string/app_name"
+            android:name="run.brief.SampleSpellCheckerService"
+            android:permission="android.permission.BIND_TEXT_SERVICE" >
+            <intent-filter >
+                <action android:name="android.service.textservice.SpellCheckerService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.textservice.scs"
+                android:resource="@xml/spellchecker" />
+        </service>
+        
+        
+        <service android:name="run.brief.service.PopOverAlert" >
+        </service>
+        <receiver android:name="run.brief.service.OnBootReceiver">
+	        <intent-filter>
+	            <action android:name="android.intent.action.BOOT_COMPLETED" />
+	            <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+	        </intent-filter>
+    	</receiver>
+          
+		<receiver android:name="run.brief.service.OnAlarmReceiver" >
+			<intent-filter>
+			    <action android:name="android.intent.action.ACTION_SCREEN_ON" />
+			    <action android:name="android.intent.action.ACTION_SCREEN_OFF" />
+                <action android:name="android.intent.action.ACTION_USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+       
+		<receiver android:name="run.brief.service.OnBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+		<receiver android:name="run.brief.service.OnAlarmReceiver" >
+			<intent-filter>
+			    <action android:name="android.intent.action.ACTION_SCREEN_ON" />
+			    <action android:name="android.intent.action.ACTION_SCREEN_OFF" />
+                <action android:name="android.intent.action.ACTION_USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+		<receiver android:name="run.brief.service.OnCallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="run.brief.service.OnSmsReceiver"> 
+           <intent-filter android:priority="1000">
+                <action android:name=
+                    "android.provider.Telephony.SMS_RECEIVED" /> 
+            </intent-filter> 
+        </receiver>
+        
+        -->
+
+    </application>
+
+
+
+</manifest>

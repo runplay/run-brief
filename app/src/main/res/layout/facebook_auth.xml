@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+    <TextView
+	android:id="@+id/facebook_auth_text"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textColor="#343434"
+	android:textSize="12sp"
+	android:paddingLeft="8dp"
+	android:layout_marginTop="1dp"
+	android:text="Setup your facebook account"
+	/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webviewfacebookauth"/>
+</RelativeLayout>

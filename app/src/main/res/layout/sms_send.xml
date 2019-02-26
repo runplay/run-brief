@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@color/white_alpha_light"
+    android:clickable="true"
+    android:id="@+id/sms_parent"
+    >
+	<LinearLayout
+	    android:id="@+id/sms_to_persons_pod"
+	       android:orientation="horizontal"
+	       android:layout_height="wrap_content"
+	       android:layout_width="match_parent"
+			android:layout_alignParentTop="true"
+			style="@style/head_area_sms"
+	   >
+<run.brief.b.bToPersonsView 
+    android:id="@+id/sms_to_persons"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    />
+	</LinearLayout> 
+
+
+	<LinearLayout
+	    android:id="@+id/sms_send_pod"
+       android:orientation="vertical"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+		android:layout_below="@id/sms_to_persons_pod"
+        style="@style/head_area_sms"
+   >
+	<TextView
+	    android:id="@+id/sms_send_info_box"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:drawableLeft="@drawable/warning"
+	    android:alpha="0"
+	    android:text=""
+        android:padding="2dp"
+	    android:layout_marginLeft="10dp"
+	    android:paddingLeft="10dp"
+
+	    android:gravity="center_vertical"
+	    style="@style/text_small"
+	    />
+	<LinearLayout
+	       android:orientation="horizontal"
+	       android:layout_height="wrap_content"
+	       android:layout_width="match_parent"
+	       android:paddingTop="2dp"
+
+	   >
+	    <run.brief.b.bImageButton 
+		    android:id="@+id/sms_i_smile"
+		    android:layout_width="50dp"
+			android:layout_height="35dp"
+			android:src="@drawable/i_smile"
+			android:layout_margin="0dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+			
+	    />
+	    <run.brief.b.bEditText
+	        android:id="@+id/field_sms_message"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:inputType="textMultiLine|textAutoCorrect"
+            android:imeOptions="flagNoExtractUi"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+	        >
+		        <requestFocus />
+	    </run.brief.b.bEditText>
+	    <run.brief.b.bImageButton 
+		    android:id="@+id/sms_send_btn"
+		    android:layout_width="60dp"
+			android:layout_height="35dp"
+			android:src="@drawable/social_send_now"
+			android:layout_margin="0dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+	    />
+	</LinearLayout> 
+
+	</LinearLayout> 
+	<ListView
+
+	    android:id="@+id/preview_sms_history"
+	    android:layout_width="match_parent"
+       	android:layout_height="match_parent"
+
+        android:divider="@null"
+        android:dividerHeight="0dp"
+		/>
+
+
+</RelativeLayout>

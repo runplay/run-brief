@@ -1,0 +1,922 @@
+[
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_edit.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_edit.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/app_line.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/app_line.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_new_event.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_new_event.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_app.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/icon_app.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/s_checkoff.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/s_checkoff.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emo_key.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/emo_key.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fab_shadow.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/fab_shadow.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_sms.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_sms.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_volume_muted.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_volume_muted.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/rate_none.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/rate_none.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emo_newline.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/emo_newline.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_cut.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_cut.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/rate_unrated_grey.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/rate_unrated_grey.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_news_w.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_news_w.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_data_usage.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_data_usage.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/collections_view_as_list.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/collections_view_as_list.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_focus_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emo_space.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/emo_space.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_refresh.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_refresh.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/comms_item.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/comms_item.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/io_out_fail.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/io_out_fail.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_pay.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_pay.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_email_w.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_email_w.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_email.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_email.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_new_email.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_new_email.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/powered_by_google_dark.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/app_fbmessenger.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/app_fbmessenger.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_battery.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_battery.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_cross.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_cross.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_new.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_new.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_video.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_video.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_brightness_high.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_brightness_high.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/collections_sort_by_size.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/collections_sort_by_size.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_expand.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_expand.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/social_cc_bcc.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/social_cc_bcc.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_pressed_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/warning.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/warning.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/io_in_fail.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/io_in_fail.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/powered_by_google_light.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_new_attachment.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_new_attachment.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_comms_disconnect.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_comms_disconnect.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/locker.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/locker.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_email3.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_email3.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fab_shadow_mini.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/fab_shadow_mini.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_menu.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/ic_action_menu.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/email_signature.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/email_signature.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_normal_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_news.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_news.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_disabled_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_brightness_medium.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_brightness_medium.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_brief.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_brief.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/collections_labels.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/collections_labels.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_screen_rotation.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_screen_rotation.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/collections_go_to_today.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/collections_go_to_today.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_proxy.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_proxy.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_chat_w.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_chat_w.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_forward.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_forward.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/web_wb.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/web_wb.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/io_out_ok.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/io_out_ok.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/email_body.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/email_body.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_text_cursor_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_text_cursor_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_volume_on.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_volume_on.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_select_all.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_select_all.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_picture.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_picture.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_feeds.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_feeds.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_storage.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_storage.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_bluetooth.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_bluetooth.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_cancel.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_cancel.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_mic_muted.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_mic_muted.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_undo.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_undo.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_note.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_note.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_pressed_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/menu_options.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/menu_options.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_end_call.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_end_call.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/hardware_keyboard.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/hardware_keyboard.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/s_folder.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/s_folder.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_comms_warn.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_comms_warn.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/locker_open.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/locker_open.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_bightness_low.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_bightness_low.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/locker_unlock.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/locker_unlock.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/email_signature_tick.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/email_signature_tick.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_email4.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_email4.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/collections_view_as_grid.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/collections_view_as_grid.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_normal_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_alarms.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_alarms.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/app_gmail.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/app_gmail.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/web_bw.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/web_bw.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/social_send_now.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/social_send_now.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_phone.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_phone.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_network_cell.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_network_cell.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_next_item.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_next_item.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/sync_inactive.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/sync_inactive.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/email_subject.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/email_subject.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_read.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_read.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/alert_none.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/alert_none.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/alert_vibrate.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/alert_vibrate.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/sync_rekey.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/sync_rekey.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_unread.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_unread.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/iinstagram.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/iinstagram.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_wait.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_wait.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_email2.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_email2.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_accept.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_accept.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_camera.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_camera.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/social_person_notify.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/social_person_notify.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_network_wifi.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_network_wifi.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/s_size.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/s_size.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_collapse.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_collapse.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_pressed_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_zip.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/btn_zip.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_pay_s.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_pay_s.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_url.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_url.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/sync_active.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/sync_active.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/setting_pod_bubble.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/setting_pod_bubble.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/skype.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/skype.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/alert_both.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/alert_both.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_email0.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_email0.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/action_settings.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/action_settings.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_back.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_back.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_normal_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_smile.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_smile.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_tick.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_tick.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/setting_pod_plain.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/setting_pod_plain.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_direct_on.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_direct_on.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/setting_pod_color.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/setting_pod_color.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/font_size.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/font_size.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/font_typeface.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/font_typeface.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_new_picture.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_new_picture.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/theme.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/theme.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/email_to.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/email_to.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_add_alarm.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_add_alarm.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/play.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/play.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_social.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_social.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_cancel_white.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_cancel_white.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_chat.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_chat.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_disabled_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_focus_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_lock.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_lock.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/s_file.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/s_file.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/back_back.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/back_back.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_comms_connected.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_comms_connected.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/viber.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/viber.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_focus_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/io_in_ok.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/io_in_ok.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emo_back.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/emo_back.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_remove.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_remove.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_disabled_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_disabled_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/action_help.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/action_help.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_vibrate.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_vibrate.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_paste.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_paste.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_notify.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_notify.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_backspace.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_backspace.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/go_top.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/go_top.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_attachment.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_attachment.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/collections_collection.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/collections_collection.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_filter.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_filter.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/social_add_group.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/social_add_group.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/collections_cloud.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/collections_cloud.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/action_about.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/action_about.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_email1.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_email1.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/i_direct_off.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/i_direct_off.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/email_from.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/email_from.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_save.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_save.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/social_share.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/social_share.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/action_search.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/action_search.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/social_share_grey.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/social_share_grey.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/app_whatsapp.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/app_whatsapp.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_dial_pad.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_dial_pad.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/social_add_person.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/social_add_person.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/navigation_previous_item.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/navigation_previous_item.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/device_access_mic.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/device_access_mic.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/social_person.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/social_person.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_focus_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_explore.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/icon_explore.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/drawer_shadow.9.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/collections_new_label.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/collections_new_label.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_pressed_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/s_checkon.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/s_checkon.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_normal_light.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_discard.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_discard.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_zip_extract.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/btn_zip_extract.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/home/coops/android-projects/Brief/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_copy.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/content_copy.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/rate_positive.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-xhdpi/rate_positive.png"
+    }
+]

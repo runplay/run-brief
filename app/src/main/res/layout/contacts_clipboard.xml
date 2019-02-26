@@ -1,0 +1,58 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     
+     >
+     <RelativeLayout
+		   android:layout_width="match_parent"
+		   android:layout_height="wrap_content"
+         android:paddingRight="60dp"
+	     >
+	     <AutoCompleteTextView
+	         android:id="@+id/contacts_type_find"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:inputType="text"
+	         android:textSize="14sp"
+	         android:textColor="#666666"
+	         android:textColorHint="#cccccc"
+	         android:hint="@string/sms_hint_search"
+             android:imeOptions="flagNoExtractUi"
+	         />
+		<GridView android:id="@+id/contacts_clip_list"
+		   android:layout_width="match_parent"
+		   android:layout_height="wrap_content"
+		   android:numColumns="auto_fit"
+		   android:stretchMode="columnWidth"
+            android:layout_below="@id/contacts_type_find"
+            android:paddingLeft="5dp"
+		/>
+		<!-- 
+		<ListView android:id="@+id/contacts_clip_list"
+		   android:layout_width="match_parent"
+		   android:layout_height="wrap_content"
+		   
+		/>
+		-->
+	</RelativeLayout>
+	 <LinearLayout
+     android:layout_width="50dp"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_alignParentRight="true"
+     >
+     <run.brief.b.bButton 
+         android:id="@+id/contacts_clip_add"
+         android:layout_width="wrap_content"
+     	 android:layout_height="wrap_content"
+     	 android:drawableLeft="@drawable/social_add_person"
+         />
+     <run.brief.b.bButton 
+         android:id="@+id/contacts_clip_opt"
+         android:layout_width="wrap_content"
+     	 android:layout_height="wrap_content"
+     	 android:drawableLeft="@drawable/menu_options"
+         />
+     </LinearLayout>
+
+</RelativeLayout>

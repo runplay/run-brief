@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/actionbar_list"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <group android:id="@+id/group_add">
+    
+
+    <item
+        android:id="@+id/briefmessage_add_take_photo"
+        android:orderInCategory="2"
+        android:menuCategory="container"
+        app:showAsAction="always"
+        android:icon="@drawable/device_access_camera"
+        android:title="@string/txt_photo"/> 
+    <item
+        android:id="@+id/briefmessage_add_voice"
+        android:orderInCategory="2"
+        android:menuCategory="container"
+        app:showAsAction="always"
+        android:icon="@drawable/device_access_mic"
+        android:title="@string/txt_sound"/>
+
+    </group>
+    
+    <item
+        android:id="@+id/briefmessage_add_file"
+        android:orderInCategory="2"
+        android:menuCategory="container"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/content_new_attachment"
+        android:title="@string/txt_file"
+        />
+</menu>

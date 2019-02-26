@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- direct strings -->
+
+    <string name="title_direct">Direct</string>
+
+    <!-- end: direct strings -->
+
+
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+
+    <string name="app_name">Brief</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="action_refresh">Refresh</string>
+    <string name="action_accounts">Accounts</string>
+    <string name="image">Image</string>
+    <string name="title_brief">Brief</string>
+    <string name="title_direct_send">Direct send</string>
+    <string name="title_email">Email</string>
+    <string name="title_sms">SMS</string>
+    <string name="title_sms_send">SMS send</string>
+    <string name="title_locker">Locker</string>
+    <string name="title_twitter">Twitter</string>
+    <string name="title_news">RSS feeds</string>
+    <string name="title_phone">Phone</string>
+    <string name="title_d2d">Device 2 Device</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_logs">Logs</string>
+    <string name="title_new_action">New action</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_add">Add</string>
+    <string name="label_search">Search</string>
+    <string name="label_help">Help</string>
+    <string name="label_open">Open</string>
+    <string name="label_new">New</string>
+    <string name="label_select">Select</string>
+    <string name="label_home">Home</string>
+    <string name="label_username">Add Email</string>
+    <string name="label_next">Next</string>
+    <string name="label_back">Back</string>
+    <string name="label_save">Save</string>
+    <string name="label_update">Update</string>
+    <string name="label_set">Set</string>
+    <string name="label_start">Start</string>
+    <string name="label_stop">Stop</string>
+    <string name="label_format">Format</string>
+    <string name="label_send_to">Send to</string>
+    <string name="label_reply">Reply</string>
+    <string name="label_forward">Forward</string>
+    <string name="label_send">Send</string>
+    <string name="label_hide">Hide</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_safe_delete">Safe Delete</string>
+    <string name="label_network">Network</string>
+    <string name="label_refresh">Refresh</string>
+    <string name="label_files">Files</string>
+    <string name="label_calls">Calls</string>
+    <string name="label_camera">Camera</string>
+    <string name="label_contacts">Contacts</string>
+    <string name="label_remove">Remove</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_plus_member">Plus member</string>
+    <string name="label_working">Working</string>
+    <string name="label_gotop">Go Top</string>
+    <string name="label_close">Close</string>
+    <string name="label_options">Options</string>
+    <string name="label_storage">Storage</string>
+
+    <string name="label_locked_expired">Sorry, this app is old and has expired.  Download the latest version to continue using Brief.</string>
+    <string name="label_firsttime_head">Welcome to Brief</string>
+    <string name="label_firsttime_text">First time load, one moment</string>
+    
+    <string name="layout_bottom_up">Layout Bottom up</string>
+     <string name="layout_top_down">Layout Top down</string>
+    
+    <string name="title_brief_sub">Overview of all data</string>
+    <string name="title_direct_send_sub">P2P device connect</string>
+    <string name="title_email_sub">Send and receive email</string>
+    <string name="title_sms_sub">Text messages from your device</string>
+
+    <string name="title_files_sub">Device file manager</string>
+    <string name="title_news_sub">RSS news feeds and data</string>
+    <string name="title_phone_sub">Phone calls made and received</string>
+    <string name="title_notes_sub">Keep track with notes</string>
+    <string name="title_logs_sub">Developer option</string>
+    <string name="title_d2d_sub">Secure send to nearby devices</string>
+
+
+
+    <string name="notify_from">From</string>
+    <string name="notify_mark_read">Ok read</string>
+
+    <string name="no_sd_card_access">SD Card is locked for access, unlock to use brief</string>
+    <string name="unknown">Unknown</string>
+    <string name="eicon_back">Back</string>
+
+    <string name="action_paste">Paste</string>
+    <string name="copied_to_clip">Copied to clipboard</string>
+    <string name="copy_to_clip">Copy to clipboard</string>
+    
+    <string name="label_loading">Loading</string>
+    <string name="label_retry">Retry</string>
+    <string name="label_note">Note</string>
+    <string name="ok">OK</string>
+
+
+    <string name="notify_new_messages">new messages</string>
+    <string name="menu_label">Menu</string>
+    <string name="files_menu_options">Files options</string>
+    <string name="bsend_menu_options">Sending</string>
+    <string name="note_menu_options">Note options</string>
+    <string name="note_menu_edit">Edit</string>
+    <string name="menu_send_email">Send as email</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_open_file">Open file</string>
+    <string name="news_menu_options">News options</string>
+    <string name="file_menu_options">File options</string>
+    <string name="email_menu_options">Email options</string>
+    <string name="menu_reply">Reply to</string>
+    <string name="menu_save_note">Save as note</string>
+    <string name="sms_menu_options">SMS options</string>
+
+
+    <string name="locker_empty_head">Empty Locker</string>
+    <string name="locker_empty_text">To add files to the Locker, find them in the File Manager, select and click LOCK</string>
+    <string name="locker_welcome">Welcome to the file Locker</string>
+    <string name="locker_desc">The locker allows you to encrypt files on this device to ensure private access only</string>
+    <string name="locker_desc_short">Secure Encrypted files</string>
+
+
+    <string name="locker_high_desc">Enter a pass code to be entered before able to access files in the locker</string>
+    <string name="locker_high_extra">Enter 3 to 12 digits in the field below (eg. 123 , 9876, 6284937290)</string>
+    <string name="locker_create_with">Create locker with pass code</string>
+
+    <string name="locker_login_now">Open locker</string>
+     <string name="locker_invalid_code">Invalid pass code</string>
+     <string name="locker_btn_lock_now">Lock Files now</string>
+    <string name="locker_btn_data_view">View</string>
+    <string name="locker_btn_data_open">Open</string>
+    <string name="locker_btn_data_unlock">Unlock</string>
+    <string name="locker_display_path">/locker</string>
+    <string name="locker_Adding_files">Adding files to locker</string>
+    <string name="locker_Adding_files_cannot">Cannot lock files required by Brief</string>
+    <string name="locker_Adding_files_will_not">Will not lock</string>
+    <string name="locker_unlocking">Unlocking</string>
+
+
+    <string name="file_invalid">Invalid file, not on storage</string>
+
+    <string name="readme_file_name">READ_ME</string>
+    <string name="readme_file_text">Do not make any changes to any files here, doing so will cause damage</string>
+    
+    <string name="account_email_delete">Delete Email account</string>
+    <string name="account_email_delete_confirm">Are you sure you wish to delete this email account?</string>
+
+    <string name="account_add_googlemail">Add Email hosted with Google</string>
+
+    <string name="settings_termsuse">Legal</string>
+    <string name="settings_head_visual">Theme</string>
+    <string name="settings_head_general">General Settings</string>
+    <string name="settings_style">Style</string>
+    <string name="settings_style_pods">Colour pods</string>
+    <string name="settings_style_colors">Colours</string>
+    <string name="settings_style_plain">Plain</string>
+
+    <string name="settings_font_typeface">Text style</string>
+    <string name="settings_font_size">Text size</string>
+
+    <string name="settings_notify_tab">Notify</string>
+    <string name="settings_alerts">Notify alerts</string>
+    <string name="settings_alert_sms">When SMS received</string>
+    <string name="settings_alert_email">When Email received</string>
+    <string name="settings_alert_news">When filtered News received</string>
+    <string name="settings_alert_sound">Play default sound</string>
+    <string name="settings_alert_vibrate">Vibrate device</string>
+    <string name="settings_alert_repeat_head">After first alert, if more new alerts</string>
+
+    <string name="settings_alert_emails">Plain</string>
+    <string name="settings_brief_unlock_desc">This will open Brief when you unlock your device, if you do not use Brief as the main app on your device, do not enable this feature</string>
+    
+    <string name="settings_show_in_brief">Show in Brief</string>
+    <string name="settings_proxy_check">Use Proxy server</string>
+    <string name="settings_proxy_desc">Send all network communications using a Proxy server</string>
+    <string name="settings_proxy_ip">IP Address ( i.e. 192.168.0.250 )</string>
+    <string name="settings_proxy_ip_port">Port ( i.e. 8090 )</string>
+    <string name="settings_proxy_auth_check">Requires Authentication</string>
+    <string name="settings_proxy_user">Username</string>
+    <string name="settings_proxy_password">Password</string>
+    <string name="settings_proxy_emsg_check">check the following: </string>
+    <string name="settings_proxy_emsg_ip">valid IP Address</string>
+    <string name="settings_proxy_emsg_port">valid network Port</string>
+
+    <string name="settings_data">Archive and Data</string>
+    <string name="settings_alert_time_quiet">No alerts</string>
+    <string name="settings_alert_time_vibrate">Allow vibrate</string>
+    <string name="settings_alert_time_both">Allow vibrate and sound</string>
+    <string name="settings_alert_schedule">Alert time schedule</string>
+    <string name="settings_alert_schedule_desc">Choose during each 30 minute period below how Brief is allowed to alert, none, vibrate only or vibrate and play sound</string>
+
+    <string name="welcome_head">Welcome to Brief</string>
+    <string name="welcome_head_desc">Brief takes all your regular use features on your handheld device and puts them in one easy to access place</string>
+    <string name="welcome_findway">Finding your way around Brief</string>
+    <string name="welcome_findway_nav">Use the top select to choose any specific feeds to view</string>
+    <string name="welcome_findway_control">Use the control button to access other device features, accounts and app settings</string>
+
+    <string name="welcome_slide">Sorting brief items</string>
+    <string name="welcome_slide_left">Slide items left to mark as Read</string>
+    <string name="welcome_slide_right">Slide items right to mark as Important</string>
+    
+    <!--
+    <string name="quiet_time">checkthe following: </string>
+    <string name="quiet_time_explained">Allows you to set a time period where Brief will not alert on items received except phone calls</string>
+    <string name="quiet_time_sms">Include SMS in Quiet time</string>
+    <string name="quiet_time_sms_enable">Enable by checking SMS Override option under the Home Tab</string>
+    <string name="quiet_time_start">Start Time</string>
+    <string name="quiet_time_end">End time</string>
+    <string name="quiet_time_select">Select</string>
+-->
+    <string name="search_start">Enter search terms above and click to search</string>
+    <string name="search_searching">Searching</string>
+    
+    <string name="contacts">Contacts</string>
+    <string name="contacts_select">Select contacts</string>
+    <string name="contacts_other_apps">Other apps</string>
+    <string name="contacts_resync">Re sync contacts</string>
+    <string name="contacts_unknown">Add new contact</string>
+    <string name="contacts_summary">Contacts on this device</string>
+    <string name="contacts_postal">Postal address</string>
+    
+    <string name="files">Files</string>
+    <string name="files_delete">Delete files</string>
+    <string name="files_delete_now">Deleting files now</string>
+    <string name="files_delete_safe_now">Safe Deleting files now</string>
+    <string name="files_delete_completed">Delete completed</string>
+    <string name="files_delete_all_ok">All files have successfully been deleted</string>
+    <string name="files_delete_error">The following files could not be deleted:</string>
+    
+    <string name="accounts_added">Account added</string>
+    <string name="accounts_add_email">Add Email</string>
+    <string name="accounts_edit_email">Edit Email</string>
+    <string name="accounts_add_twitter">Add Twitter</string>
+    <string name="accounts_add_linkedin">Add Linkedin</string>
+    <string name="accounts_add_facebook">Add Facebook</string>
+    <string name="accounts_add_reddit">Add Reddit</string>
+    
+    <string name="accounts_label_refresh">Choose Sync period</string>
+    <string name="accounts_email_edit_server">Edit email server</string>
+    <string name="accounts_email_sync_folders">Sync folders</string>
+    <string name="accounts_email_other_folders">Other folders</string>
+    <string name="accounts_email_sync_active">Sync Active</string>
+    <string name="accounts_email_sync_inactive">Sync Inactive</string>
+    <string name="accounts_email_sync_reload">Reload folders</string>
+
+    <string name="accounts_email_sync_no_folders">No folders will be collected</string>
+    <string name="accounts_email_sync_no_folders_other">No others folders to list</string>
+    <string name="accounts_email_sync_active_desc">Emails will be collected from remote server</string>
+    <string name="accounts_email_sync_inactive_desc">Emails will not be collected from remote server</string>
+
+    
+    <string name="accounts_add_username">User name</string>
+    <string name="accounts_add_password">Password</string>
+    
+    <string name="accounts_sync_fast">Fast Sync - many times every hour</string>
+    <string name="accounts_sync_slow">Medium Sync - every hour</string>
+    <string name="accounts_sync_very_slow">Slow Sync - Daily</string>
+    
+    <string name="sync_msg_email_awaiting">Awaiting first sync</string>
+    <string name="sync_msg_email_no_server">Could not connect, check Server settings</string>
+    <string name="sync_msg_last_in_sync">Last sync on</string>
+    <string name="sync_msg_last_out_sync">Send ok</string>
+
+    
+    <string name="error_general">Something went wrong</string>
+
+    <string name="no_data">No data</string>
+    <string name="no_data_notes">Create notes to see them appear here</string>
+
+    <string name="no_data_brief_star">Slide items in the Inbox and Read sections to the right to mark as Important</string>
+    <string name="no_data_brief_star_head">Important Items</string>
+    <string name="no_data_brief_none">Slide items in the Inbox and Important sections to the left to mark as Read</string>
+    <string name="no_data_brief_none_head">Read items</string>
+    <string name="no_data_brief_inbox">Brief home displays the past 7 days of data from your selected sources, try adding Email, RSS to start seeing data appear here.</string>
+    <string name="no_data_brief_inbox_head">No data to show</string>
+
+    <string name="no_data_sms">Once using your device SMS messages will appear here.</string>
+    <string name="no_data_brief">Once using Brief, all message data will appear here.</string>
+
+
+    
+    <string name="loading_email_folders">One moment, loading folders.</string>
+    <string name="loading_email_folders_none">Folders did not load.</string>
+    
+    <string name="menu_contacts_clip_save_new">Save new group</string>
+    <string name="menu_contacts_clip_save">Save</string>
+    <string name="menu_contacts_clip_open">Open</string>
+
+
+    <string name="label_about">About</string>
+    <string name="about_head_device">My Device</string>
+    <string name="about_text_model">Model</string>
+    <string name="about_text_phone">Tel</string>
+    <string name="about_version">version</string>
+    <string name="about_by">© BRIEF APP LTD, UK, 2014 onwards</string>
+
+    <string name="about_desc_inc_soft">Brief makes use of some Open source licenced software</string>
+    <string name="about_desc_inc_soft_btn">See all licences and usages</string>
+
+
+     <string name="settings_emo_head">Emoticons</string>
+     <string name="settings_emo_text">Use emoticons :) :( ;P</string>
+     <string name="settings_sms_head">SMS override</string>
+     <string name="settings_sms_text">Make Brief the default SMS app for this device</string>
+     <string name="settings_brief_head">Customise Brief</string>
+     <string name="settings_brief_news">Show RSS in Brief</string>
+     <string name="settings_brief_news_style">Only show headlines</string>
+
+    <string name="settings_email_wait_sync">Awaiting sync</string>
+
+    <string name="settings_archive_images_head">Cleanup: Delete images</string>
+    <string name="settings_archive_images">Delete images after </string>
+    <string name="settings_archive_stories_head">Cleanup: Delete stories</string>
+    <string name="settings_archive_stories">Delete stories after </string>
+    <string name="settings_archive_stories_count">RSS item count: </string>
+    <string name="settings_archive_images_count">Image count: </string>
+    <string name="text_days">days</string>
+    <string name="disable_javascript">Disable Javascript in RSS web view (faster page load and display)</string>
+
+    <!--
+     <string name="settings_brief_news_keywords">Only if has following</string>
+     <string name="settings_brief_news_keywords_tip">Enter keywords or phrases separated with a comma ,</string>
+    -->
+     <string name="settings_brief_notes">Show Notes in Brief</string>
+     <string name="settings_brief_email">Show Email in Brief</string>
+     <string name="settings_brief_twitter">Show Twitter in Brief</string>
+     <string name="settings_brief_sms">Show SMS in Brief</string>
+     <string name="settings_brief_phone">Show Calls in Brief</string>
+     <string name="settings_brief_chat">Show Chats in Brief</string>
+     <string name="settings_brief_on_unlock">Open brief on device unlock</string>
+     
+     <string name="settings_comms_use_live">Use Live Comms</string>
+     <string name="settings_comms_use_live_desc">When connected to WiFi Brief will enable VOIP telephone and Secure transfer features</string>
+     <string name="settings_comms_use_p2p">Use P2P Comms</string>
+     <string name="settings_comms_use_p2p_desc">Allow local device-to-device connections for messages and data</string>
+     <string name="settings_comms_use_p2p_contacts">Only from people in my contact list</string>
+     <string name="settings_comms_use_p2p_contacts_extra">For privacy, use contacts only is recommended</string>
+     <string name="settings_comms_use_p2p_encrypt">Encrypt data</string>
+     
+     <string name="comms_list_devices">Devices connected to Gateway</string>
+     <string name="comms_user_intervention">Could not setup Networking</string>
+     <string name="comms_ensure_wifi_connected">Ensure device has an active Wifi Internet enabled connection</string>
+     <string name="comms_ensure_gateway_upnp">Ensure the Wifi hub has UPNP enabled</string>
+     <string name="comms_ensure_wifi">Turn on and connect the device to a Wifi internet connection to enable Live Comms</string>
+     <string name="comms_is_off">Live Comms is off</string>
+     <string name="comms_is_off_desc">Live comms allows the Brief app to send and receive VOIP calls and directly transmit secure data app to app.</string>
+     
+     <string name="comms_no_gateway">No Gateway</string>
+     <string name="comms_info_connected">No Gateway</string>
+     <string name="comms_info_disconnected">No Gateway</string>
+     
+     <string name="comms_use_live_comms_data">Allow messages and files</string>
+     <string name="comms_use_live_comms_voip">Allow VOIP phone calls</string>
+     
+     <string name="no_file_format">Cannot recognise file format</string>
+    
+    <string name="person_unkown">Unknown</string>
+
+    <string name="email_add_google_bad_internet">Internet connection not responding, try again</string>
+         
+    <string name="voip_call">voip call</string>
+    
+    <string name="note_nothing_update">Nothing to update</string>
+    <string name="note_nothing_save">Nothing to Save</string>
+    
+    <string name="choose_format_title">Choose audio format</string>
+    <string name="audio_format">mp4</string>
+
+
+    <!--  news -->
+
+    <string name="news_reindex">One moment, just applying filter changes to past RSS items</string>
+    <string name="news_no_pub">No RSS items to display for this source</string>
+    <string name="news_custom_added_note">Enter a valid RSS http source (http://domain/uri)</string>
+    <string name="news_custom_added_title">Custom added feeds</string>
+    <string name="news_custom_added_sub_title">Your custom added RSS feeds</string>
+    <string name="news_custom_rss_invalid">Could not validate or get the RSS url</string>
+    <string name="news_custom_rss_already">Rss feed is already selected</string>
+    <string name="news_delete_custom">Delete your custom added RSS feed?</string>        
+     <string name="news_delete_title">Delete RSS?</string>
+    <string name="news_select_title">Select below RSS feeds of interest</string>
+    <string name="news_key_include_explain">type in keywords or \"key terms\" followed with a space to show only RSS that DO contain them in the Brief</string>
+    <string name="news_key_disclude_explain">type in keywords or \"key terms\" followed with a space to show only RSS that DO NOT contain them in the Brief</string>
+    <string name="news_key_title">Keyword filters</string>
+    <string name="news_feeds_title">RSS Feeds</string>
+    <string name="news_key_style">Choose filter style</string>
+    <string name="news_key_style_include">Include</string>
+    <string name="news_key_style_disclude">Disclude</string>
+    <string name="news_key_style_include_desc">Filter includes before discludes</string>
+    <string name="news_key_style_disclude_desc">Filter discludes before includes</string>
+    <string name="news_feeds_heading">Choose or set your preferred RSS feeds and filters</string>
+    <string name="news_feeds_sync_fast">Fast sync (1hr)</string>
+    <string name="news_feeds_sync_medium">Medium sync (3hr)</string>
+    <string name="news_feeds_sync_slow">Slow sync (24hr)</string>
+    <string name="starred_news">Starred</string>
+
+    <string name="video_channels">Type</string>
+    <string name="news_custom_added_youtube">Enter YouTube channel id</string>
+    <string name="news_custom_added_vimeo">Enter Vimeo channel id</string>
+    <string name="news_custom_channel_invalid">Enter valid channel ID</string>
+    <string name="news_error_load">Could not load, check your internet connection.</string>
+    <string name="no_data_news">Set up your news sources to see news items appear here</string>
+    <string name="startup_quick_start">Quick start</string>
+    <string name="startup_random_choice">Get going with the following random chosen news feeds</string>
+    <string name="startup_or_detail_setup">Or choose your own news feeds to use</string>
+    <string name="startup_manual_setup">Setup</string>
+
+    <string name="label_syncing">Syncing</string>
+
+
+    <string name="upgrade_blurb">Become a Plus member to make use of the following features:</string>
+	<string name="upgrade_safe_delete">Safe delete overwrites each file with random data before deleting, providing a more secure way to delete your data</string>
+	<string name="upgrade_email_signature">Change and edit signatures to be appended to your emails</string>
+    <string name="upgrade_locker">Add files to the Locker</string>
+
+    <string name="upgrade_expires">Expires after</string>
+
+	<string name="email_signature">Sent in Brief</string>
+	<string name="email_signature_url">http://www.brief.ink</string>
+    <string name="label_signatures">Signatures</string>
+    
+    
+   <string name="error_email_collect_body">Problem downloading email try again</string>
+    <string name="label_email_add">Add email</string>
+    <string name="label_email">Email</string>
+    <string name="label_email_server_type">Server type</string>
+    <string name="label_email_type_smtppop">POP &amp; SMTP account</string>
+    <string name="label_email_type_imap">IMAP account</string>
+    <string name="label_incoming_server">Incoming SMTP Server</string>
+    <string name="label_outgoing_server">Outgoing Server</string>
+    <string name="label_server">Server</string>
+    <string name="label_server_address">Address/IP</string>
+    <string name="label_port_incoming">Port</string>
+    <string name="label_port_outgoing">Port</string>
+    <string name="label_use_email_for_username">Use email address as login username</string>
+    <string name="label_login_details">Login details</string>
+    <string name="error_instantiate_email_server">Server connect instance not created</string>
+
+    <string name="brief_failed_send">Failed to send, retry or delete</string>
+    <string name="brief_failed_send_email">Failed to send, retry or delete.  Try checking your Email account Server settings</string>
+    <string name="email_out_status_title">Outgoing Server status</string>
+    <string name="email_in_status_title">Incoming Server status</string>
+    <string name="brief_sent_confirming">Sent, confirming receipt by server</string>
+    <string name="brief_sending">Sending...</string>
+
+    <string name="label_errors_below">Correct the errors below</string>
+    <string name="label_invalid_server">Invalid server</string>
+    <string name="label_invalid_port">Invalid port</string>
+    <string name="label_invalid_login">User name and password required</string>
+    <string name="info_login_store">login details are stored encrypted only on this device</string>
+
+    <string name="email_include_original">Include original email</string>
+    <string name="email_hint_body">Email body</string>
+    <string name="email_hint_to">Add email address</string>
+    <string name="email_hint_subject">Email subject</string>
+    <string name="email_view">View Email</string>
+    <string name="email_send">Send Email</string>
+    <string name="email_ssl">SSL</string>
+    <string name="email_tls">TLS</string>
+    <string name="email_use_pop">POP</string>
+    <string name="email_use_imap">IMAP</string>
+    <string name="email_enc_none">None</string>
+    <string name="email_encrypt">Encryption</string>
+    <string name="email_testing_connection">Testing connection</string>
+    <string name="email_testing_failed">Failed connection</string>
+    <string name="email_oauth_fail">Network error, bad connection stopped sync completing</string>
+    
+    <string name="email_btn_send">Send</string>
+
+    <string name="email_send_error_noto">Add a person to send to</string>
+    <string name="email_send_error_notext">Subject or Body text required</string>
+    <string name="email_send_error_noattach">Do you need an attachment file?</string>
+
+    <string name="email_google_error">Problem adding account, check your internet and try again</string>
+    <string name="email_google_wait">Awaiting app registration, come back in a minute</string>
+    <string name="email_google_registering">Confirming secure token connection</string>
+
+    
+    <string name="email_no_accounts">You have not set up any email accounts yet.  Go to the Accounts area to add your email account.</string>
+    <string name="email_btn_no_accounts">Add email account</string>
+    
+    <string name="alert_valid_email">Invalid email address</string>
+    <string name="alert_already_email">Email account already exists</string>
+    
+    <string name="hint_email_address">email@address.com</string>
+    <string name="hint_server_domain">server.domain.com</string>
+    <string name="hint_port_pop">110</string>
+    <string name="hint_port_smtp">25</string>
+    <string name="hint_port_imap">143</string>
+    
+    <string name="news_add_text">Add source</string>
+    <string name="news_title">News feeds</string>
+    <string name="news_all_feeds">All feeds</string>
+    
+    <string name="action_sms_new">New SMS</string>
+    <string name="action_sms_send">Flip direction</string>
+    <string name="action_sms_cancel">Cancel SMS</string>
+    
+    
+    <string name="sms_hint_search">Enter number or name</string>
+    <string name="sms_alert_no_message">Enter a message to send</string>
+    <string name="sms_alert_no_person">Choose someone to send to</string>
+
+    <string name="sms_not_default">Brief is not your Default SMS app</string>
+    <string name="sms_not_default_desc">To make the most of the Brief app you should set it to operate as your default SMS app</string>
+    <string name="sms_not_default_btn">Set Default</string>
+
+    
+	<string name="twitter_callback">twitter-callback:///</string>
+	<string name="facebook_callback">facebook-callback:///</string>
+	<string name="linkedin_callback">linkedin-callback:///</string>
+	
+	<string name="spellchecker_name">Spell</string>
+	<string name="subtype_generic">Spell check</string>
+	<string name="accounts_overview">Add and edit your accounts here</string>
+	<string name="txt_add">Add</string>
+	<string name="txt_save">Save</string>
+    <string name="txt_edit">Edit</string>
+	<string name="txt_sound">Sound</string>
+	<string name="txt_photo">Photo</string> 
+	<string name="txt_image">Image</string>
+	<string name="txt_video">Video</string>
+	<string name="txt_file">File</string>
+
+
+    
+
+
+
+	
+	<!--  fileTasks -->
+	<string name="file_send">Send</string>
+	<string name="file_zip_send">Zip and Send</string>
+	<string name="file_send_bluetooth">Send via Bluetooth</string>
+	<string name="file_delete">Delete file</string>
+	
+	<string name="file_no_storage">No storage card found, unable to access data</string>
+	<string name="file_no_read">Read disabled, ensure the device is not mounted</string>
+	<string name="file_no_write">Write disabled, ensure the device is not mounted</string>
+	
+	<!--  fileExplorer -->
+	<string name="file_explore_empty">Empty</string>
+    <string name="orderby_name_asc">Order by name ascending</string>
+    <string name="orderby_name_desc">Order by name descending</string>
+    <string name="orderby_date_asc">Order by date ascending</string>
+    <string name="orderby_date_desc">Order by date descending</string>
+    <string name="showhide_system_files">Show / Hide system files</string>
+    <string name="file_explore_order_error">Too many matching instances to be able to order</string>
+
+    <string name="label_paste_files">Duplicating files</string>
+    <string name="label_move">Move</string>
+    <string name="label_images">Image</string>
+    <string name="label_edit">Edit</string>
+    <string name="label_moving">Moving files</string>
+    <string name="creating_archive">creating archive</string>
+
+    <string name="label_archive">Archive</string>
+    <string name="label_rename">Rename</string>
+    <string name="label_extract">Extract</string>
+    <string name="label_copy">Copy</string>
+    <string name="zip_duplicates">Duplicate filenames found, change output folder </string>
+    <string name="choose_folder">Choose Folder</string>
+    <string name="share_using">Shared from Brief - the all-in-one app</string>
+    <string name="action_use">Use</string>
+    <string name="label_share">Share</string>
+	
+	<!--  lock pattern -->
+    <string name="alp_app_name">android-lockpattern</string>
+    <string name="alp_cmd_confirm">Confirm</string>
+    <string name="alp_cmd_continue">Continue</string>
+    <string name="alp_cmd_retry">Retry</string>
+    <string name="alp_lockscreen_access_pattern_cell_added">Cell added</string>
+    <string name="alp_lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <string name="alp_lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="alp_lockscreen_access_pattern_start">Pattern started</string>
+    <string name="alp_msg_connect_4dots">Connect at least 4 dots.\nTry again…</string>
+    <string name="alp_msg_draw_an_unlock_pattern">Draw an unlock pattern:</string>
+    <string name="alp_msg_draw_pattern_to_unlock">Draw pattern to unlock:</string>
+    <string name="alp_msg_pattern_recorded">Pattern recorded!</string>
+    <string name="alp_msg_redraw_pattern_to_confirm">Redraw pattern to confirm:</string>
+    <string name="alp_msg_release_finger_when_done">Release finger when done</string>
+    <string name="alp_msg_try_again">Sorry, try again</string>
+    <string name="alp_msg_your_new_unlock_pattern">Your new unlock pattern:</string>
+
+    <!-- Camera -->
+    <string name="btnIntend">Take Picture</string>
+    <string name="btnIntendS">Take (small) Picture</string>
+    <string name="btnIntendV">Video</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">BriefCamera</string>
+    <string name="camera_choose">Click camera icon to take picture</string>
+    <string name="camera_txt_image_size">Image size</string>
+    <string name="camera_txt_file_size">File size</string>
+    <string name="camera_btn_instagram">Instagram</string>
+    <string name="image_attached">Image attached</string>
+
+
+    <!--  Pull to refresh -->
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_refreshing">Refreshing…</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <!-- pull to refresh -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+
+
+    
+    <!--  VOIP -->
+    <string name="activity_thclientthread">activity_thclientthread</string>
+    <string name="textFieldClientStatus">textFieldClientStatus</string>
+    <string name="cannot1">Cannot</string>
+    <string name="cannot2">Cannot</string>
+    
+    <!--  CHAT -->
+    <string name="chat_hello">Hello World, startApp</string>
+    <string name="chat_app_name">labs</string>
+    <string name="chat_friend_list">Friend List</string>
+    
+    <string name="chat_username">Username:</string>
+    <string name="chat_password">Password:</string>
+    <string name="chat_login">Login</string>
+    <string name="chat_cancel">Cancel</string>
+    <string name="chat_messaging">Messaging</string>
+    <string name="chat_local_service_started">App service started</string>
+    <string name="chat_local_service_stopped">App service stopped</string>
+	<string name="chat_local_service_connected">local_service_connected</string>
+	<string name="chat_OK">OK</string>
+	<string name="chat_not_connected_to_service">Not connected to the service and 
+	this is not supposed to happened so please inform this situation to 
+	ahmetmermerkaya@hotmail.com</string>	
+	<string name="chat_fill_both_username_and_password">Please fill both username and password</string>
+	<string name="chat_make_sure_username_and_password_correct">Please make sure that
+	your username and password correct</string>
+	<string name="chat_user_offline">This user is offline</string>
+	<string name="chat_sign_up">Sign up</string>
+	<string name="chat_exit_application">Exit</string>
+	<string name="chat_password_again">Password(again):</string>
+	<string name="chat_email">E-mail</string>
+	<string name="chat_signup_fill_all_fields">Please fill all fields</string>
+	<string name="chat_signup_type_same_password_in_password_fields">Type same password in password fields</string>
+	<string name="chat_signup_failed">Sign up failed because of unknown reason</string>
+	<string name="chat_signup_username_crashed">Your username have been already taken, please try another username</string>
+	<string name="chat_signup_successfull">Your registration is completed successfully,\n you can login now </string>
+	<string name="chat_username_and_password_length_short">Username and password length must be at least 5</string>
+	<string name="chat_add_new_friend">Add new friend</string>
+	<string name="chat_no_friend">You have no friend,\n you can add new friends by menu</string>
+	<string name="chat_add">Add</string>
+	<string name="chat_request_sent">Your request has been sent</string>
+	<string name="chat_type_friend_username">Please type your friend username</string>
+	<string name="chat_new_friend_request_exist">New friend request</string>
+	<string name="chat_approve_selected_friends">Approve Selecteds and Discard Others</string>
+	<string name="chat_not_connected_to_network">There is no available connected network</string>
+	<string name="chat_message_cannot_be_sent">Message was not been able to sent</string>
+    
+</resources>

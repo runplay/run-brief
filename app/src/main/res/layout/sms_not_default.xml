@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/white_alpha"
+    >
+    <TextView
+        android:id="@+id/sms_not_default_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_not_default_btn"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_general"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        />
+<TextView
+    android:id="@+id/sms_not_default_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/i_sms"
+    android:text="@string/sms_not_default"
+    android:gravity="center_vertical"
+    android:drawablePadding="5dp"
+    android:layout_toLeftOf="@id/sms_not_default_btn"
+    />
+<TextView
+    android:id="@+id/sms_not_default_desc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/sms_not_default_desc"
+    android:layout_below="@id/sms_not_default_text"
+    android:layout_toLeftOf="@id/sms_not_default_btn"
+    android:paddingLeft="35dp"
+    android:paddingBottom="5dp"
+    />
+
+</RelativeLayout>

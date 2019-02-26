@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:background="@color/background"
+	 >
+	<ListView android:id="@+id/new_action_list"
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:divider="@null"
+	   android:dividerHeight="0dp"
+	/> 
+</RelativeLayout>

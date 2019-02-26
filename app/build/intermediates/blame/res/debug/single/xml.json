@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/xml/watch_widget_provide.xml",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/xml/watch_widget_provide.xml"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/xml/spellchecker.xml",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/xml/spellchecker.xml"
+    }
+]

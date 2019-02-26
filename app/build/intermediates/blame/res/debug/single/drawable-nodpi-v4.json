@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/alp_indicator_code_lock_drag_direction_green_up.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-nodpi/alp_indicator_code_lock_drag_direction_green_up.png"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/alp_indicator_code_lock_drag_direction_red_up.png",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/drawable-nodpi/alp_indicator_code_lock_drag_direction_red_up.png"
+    }
+]

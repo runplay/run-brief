@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/brief_pod"
+     >
+<LinearLayout android:id="@+id/contact_thumbnail"
+     android:layout_width="20dp"
+     android:layout_height="20dp"
+     android:layout_alignParentLeft="true"
+     android:layout_marginRight="5dp">
+
+     <run.brief.b.bPersonIconView
+         android:id="@+id/contact_image"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
+<TextView
+	android:id="@+id/contact_name" 
+	android:layout_alignTop="@+id/contact_thumbnail"
+	android:layout_toRightOf="@+id/contact_thumbnail"
+	android:layout_width="match_parent" 
+	android:layout_height="20dp"
+	android:textSize="12sp"
+	/> 
+</RelativeLayout>

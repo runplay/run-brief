@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/layout-land/camera.xml",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/layout-land/camera.xml"
+    },
+    {
+        "merged": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/layout-land/main.xml",
+        "source": "/home/coops/android-projects/Brief/app/src/main/res/layout-land/main.xml"
+    }
+]

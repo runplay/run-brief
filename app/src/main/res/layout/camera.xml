@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/white"
+  android:clickable="true"
+  >
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:layout_marginTop="5dp"
+    >
+
+   <LinearLayout 
+	   android:orientation="horizontal"
+	   android:layout_height="wrap_content"
+	   android:layout_width="match_parent"
+	   android:background="@color/white"
+    >
+	<ImageView 
+		android:id="@+id/btn_camera_open_instagram"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:layout_height="50dp"
+		android:src="@drawable/iinstagram"
+
+		/>
+	<run.brief.b.bButton 
+		android:id="@+id/btn_camera_open_note"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:layout_height="50dp"
+		android:text="@string/label_note"
+		android:drawableLeft="@drawable/i_note"
+		android:layout_marginLeft="10dp"
+		/>
+	<run.brief.b.bButton 
+		android:id="@+id/btn_camera_open_email"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:layout_height="50dp"
+		android:text="@string/label_email"
+		android:drawableLeft="@drawable/i_email"
+		android:layout_marginLeft="10dp"
+		/>
+	<ImageView
+	    android:id="@+id/btn_camera_folder"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="10dp"
+	    android:src="@drawable/collections_collection"
+	    />
+	</LinearLayout>
+	<!-- 
+		
+		<run.brief.b.bButton 
+		android:id="@+id/btn_camera_open_small"
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:text="@string/btnIntendS"
+		android:drawableLeft="@drawable/device_access_camera"
+		/>
+    <Button android:text="@string/btnIntend" android:id="@+id/btnIntend"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+    <Button android:text="@string/btnIntendS" android:id="@+id/btnIntendS"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+    <Button android:text="@string/btnIntendV" android:id="@+id/btnIntendV"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+    -->
+
+  <TextView 
+      android:id="@+id/camera_info_file_name"
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent" 
+      style="@style/text_medium"
+      android:paddingLeft="10dp"
+      android:background="@color/white"
+
+      />
+  <TextView 
+      android:id="@+id/camera_info_file_path"
+      android:layout_height="15dp" 
+      android:layout_width="match_parent" 
+      style="@style/text_small"
+      android:paddingLeft="10dp"
+          android:background="@color/white"
+
+      />
+  <TextView 
+      android:id="@+id/camera_info_data"
+      android:layout_height="15dp" 
+      android:layout_width="match_parent" 
+      style="@style/text_small"
+      android:paddingLeft="10dp"
+          android:background="@color/white"
+
+      />
+  <RelativeLayout
+      android:padding="10dp"
+      android:layout_height="0dp"
+      android:layout_weight="1" 
+      android:layout_width="match_parent" 
+      android:background="@color/grey" 
+      >
+      
+  
+  <ImageView 
+      android:layout_height="350dp" 
+      android:minHeight="350dp"
+      android:layout_width="match_parent" 
+      android:visibility="visible"
+      android:id="@+id/imageView1" 
+      />
+  <VideoView 
+      android:layout_height="wrap_content" 
+      android:minHeight="300dp"
+      android:layout_width="match_parent" 
+      android:visibility="invisible"
+      android:id="@+id/videoView1"
+       />
+  </RelativeLayout>
+</LinearLayout>
+</ScrollView>

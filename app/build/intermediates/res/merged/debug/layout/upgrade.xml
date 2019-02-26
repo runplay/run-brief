@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/upgrade"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:visibility="gone"
+    >
+    <RelativeLayout
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:padding="10dp"
+        >
+<run.brief.b.bButton
+    android:id="@+id/upgrade_now"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentRight="true"
+    android:drawableLeft="@drawable/navigation_accept"
+    android:text="@string/label_plus_member"
+    />
+<run.brief.b.bButton
+    android:id="@+id/upgrade_cancel"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:drawableRight="@drawable/navigation_cancel"
+    android:text="@string/label_cancel"
+    />
+<TextView
+    android:id="@+id/upgrade_head"
+    android:layout_below="@id/upgrade_cancel"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:text="@string/label_plus_member"
+    style="@style/heading"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    />
+    <TextView
+        android:id="@+id/upgrade_blurb"
+        android:layout_below="@id/upgrade_head"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="@string/upgrade_blurb"
+        android:paddingBottom="10dp"
+        />
+<TextView
+    android:id="@+id/upgrade_text_delete"
+    android:layout_below="@id/upgrade_blurb"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="@string/upgrade_safe_delete"
+    android:drawableLeft="@drawable/i_pay_s"
+    android:paddingBottom="10dp"
+    />
+<TextView
+    android:id="@+id/upgrade_text_signature"
+    android:layout_below="@id/upgrade_text_delete"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="@string/upgrade_email_signature"
+    android:drawableLeft="@drawable/i_pay_s"
+    android:paddingBottom="10dp"
+    />
+<TextView
+    android:id="@+id/upgrade_text_locker"
+    android:layout_below="@id/upgrade_text_signature"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:text="@string/upgrade_locker"
+    android:drawableLeft="@drawable/i_pay_s"
+    android:paddingBottom="10dp"
+    />
+<ImageView
+    android:layout_below="@id/upgrade_text_locker"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="@drawable/i_pay"
+    android:layout_centerInParent="true"
+    />
+</RelativeLayout>
+</ScrollView>

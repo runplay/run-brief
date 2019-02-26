@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_alpha_light"
+    android:padding="3dp"
+    android:paddingBottom="5dp"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/news_feed_head_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/news_feed_head_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/news_feed_head_name"
+            android:textSize="12sp"
+            android:paddingLeft="30dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/feeds_has_children"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/s_checkon"
+        />
+</LinearLayout>

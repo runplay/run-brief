@@ -1,0 +1,230 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+
+    android:clickable="true"
+    android:isScrollContainer="true"
+    android:layout_marginBottom="30dp"
+    >
+
+<TextView
+    android:id="@+id/settings_brief_head_theme"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:drawableLeft="@drawable/theme"
+	style="@style/heading"
+	android:text="@string/settings_head_visual"
+    android:layout_gravity="center_vertical"
+	/>
+
+<RadioGroup 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="0dp"
+	    android:padding="5dp"
+	    android:orientation="vertical"
+	     >
+	     <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/setting_pod_bubble"
+	         />
+	    <RadioButton android:id="@+id/settings_style_pods"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/settings_style_pods"
+	        />
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="0dp"
+	    android:padding="5dp"
+	    android:orientation="vertical"
+	     >
+	     <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/setting_pod_color"
+	         />
+	    <RadioButton android:id="@+id/settings_style_colors"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/settings_style_colors"
+	        />
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="0dp"
+	    android:padding="5dp"
+	    android:orientation="vertical"
+	     >
+	     <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/setting_pod_plain"
+	         />
+	    <RadioButton android:id="@+id/settings_style_plain"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/settings_style_plain"
+	        />
+	</LinearLayout>
+</RadioGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/settings_style_font"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/font_typeface"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/settings_style_font_size"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/font_size"
+        android:layout_gravity="center_vertical"
+        />
+
+</LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/settings_theme_bg"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            />
+        <TextView
+            android:id="@+id/settings_theme_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            />
+    </LinearLayout>
+ </RelativeLayout>
+
+<TextView
+    android:id="@+id/settings_brief_head_show"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:drawableLeft="@drawable/action_settings"
+	style="@style/heading"
+	android:text="@string/settings_show_in_brief"
+	android:layout_marginTop="10dp"
+	/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    style="@style/settings_item"
+     >
+
+     
+     <CheckBox 
+         android:id="@+id/settings_brief_sms_check"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_brief_sms"
+		 android:visibility="gone"
+		 android:drawableLeft="@drawable/i_sms"
+         />
+     <CheckBox 
+         android:id="@+id/settings_brief_chat_check"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_brief_chat"
+		 android:drawableLeft="@drawable/i_chat"
+         android:visibility="gone"
+         />
+     <CheckBox 
+         android:id="@+id/settings_brief_phone_check"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_brief_phone"
+		 android:visibility="gone"
+		 android:drawableLeft="@drawable/i_phone"
+         />
+     <CheckBox 
+         android:id="@+id/settings_brief_news_check"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_brief_news"
+		 android:drawableLeft="@drawable/i_news"
+         />
+    <CheckBox
+        android:id="@+id/settings_brief_news_check_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_brief_news_style"
+        android:drawableLeft="@drawable/i_news"
+        android:layout_marginLeft="50dp"
+        />
+     <CheckBox 
+         android:id="@+id/settings_brief_email_check"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_brief_email"
+		 android:drawableLeft="@drawable/i_email"
+         />
+     <CheckBox 
+         android:id="@+id/settings_brief_notes_check"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_brief_notes"
+		 android:drawableLeft="@drawable/i_note"
+         />
+    <!--
+     <CheckBox 
+         android:id="@+id/settings_brief_twitter_check"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="@string/settings_brief_twitter"
+		 android:drawableLeft="@drawable/i_social"
+         />
+         -->
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:orientation="horizontal"
+    android:layout_margin="0dp"
+    android:background="@color/background"
+    tools:context=".Main$AccountsHomeFragment" >
+
+     <Button 
+         android:id="@+id/settings_gohome"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/action_settings"
+      android:layout_margin="5dp"
+      style="@style/btn_general"
+      android:text="@string/label_home"
+      />
+     <Button 
+         android:id="@+id/settings_gobrief"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:drawableLeft="@drawable/i_brief"
+	      style="@style/btn_general"
+	      android:layout_margin="5dp"
+	      android:text="@string/title_brief"
+      />
+     <Button 
+         android:id="@+id/settings_gocomms"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      style="@style/btn_general"
+      android:drawableLeft="@drawable/device_access_network_wifi"
+      android:text="@string/label_network"
+      />
+     <Button 
+         android:id="@+id/settings_gorefresh"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      style="@style/btn_general"
+      android:drawableLeft="@drawable/navigation_refresh"
+      android:text="@string/label_refresh"
+      />
+</LinearLayout>

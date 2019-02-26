@@ -1,0 +1,281 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:fitsSystemWindows="true"
+            android:minHeight="?attr/actionBarSize"
+            style="@style/ToolbarStyle"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/main_bg_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:layout_margin="0dp"
+
+                >
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/main_gotop"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:background="@color/white_alpha_gotop"
+                >
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        >
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/main_gotop_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/gt_brief"
+                        >
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:src="@drawable/go_top"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        >
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+	    >
+	    <LinearLayout
+        android:id="@+id/footer_for_emoticons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_height"
+        android:background="@android:color/transparent"
+        android:visibility="gone"
+        android:orientation="horizontal" />
+	</LinearLayout>
+	<include layout="@layout/main_control"
+	    
+	    android:layout_width="match_parent"
+	 	android:layout_height="match_parent"
+	    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <run.brief.b.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+         />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/main_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/white_alpha_strong"
+        android:paddingTop="100dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/main_start_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon"
+                />
+            <TextView
+                android:id="@+id/main_start_text"
+                android:layout_below="@id/main_start_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_loading"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                />
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_start_text"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+	<RelativeLayout
+	    android:id="@+id/main_no_sd_card"
+	    android:layout_width="match_parent"
+	 	android:layout_height="match_parent"
+	 	android:clickable="true"
+	 	android:layout_gravity="center"
+	 	android:gravity="center"
+	 	android:visibility="gone"
+	 	android:background="@color/black_alpha"
+	    >
+	    <TextView 
+		    android:layout_width="match_parent"
+		 	android:layout_height="match_parent"
+	        android:text="@string/no_sd_card_access"
+	        android:gravity="center"
+	        android:drawableTop="@drawable/content_save"
+	        />
+	</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_lock_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/brief_green"
+        android:paddingTop="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/expired_img"
+            android:gravity="center"
+            >
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/expired"
+                android:gravity="center_horizontal"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_below="@id/expired_img"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/label_locked_expired"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingTop="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/main_firsttime_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/brief_green"
+        android:paddingTop="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_firsttime_app_hold"
+            android:gravity="center"
+            >
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/firsttime_smile"
+                android:gravity="center_horizontal"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/main_firsttime_head"
+            android:layout_below="@id/main_firsttime_app_hold"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/label_firsttime_head"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/main_firsttime_text"
+            android:layout_below="@id/main_firsttime_head"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/label_firsttime_text"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingTop="20dp"
+            />
+    </RelativeLayout>
+    </RelativeLayout>
+    <fragment android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/navigation_drawer_width" android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="run.brief.NavigationDrawerFragment"
+        tools:layout="@layout/navigation_drawer"
+        android:fitsSystemWindows="true"
+        />
+
+</android.support.v4.widget.DrawerLayout>

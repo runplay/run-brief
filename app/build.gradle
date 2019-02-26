@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "run.brief"
+        minSdkVersion 16
+        targetSdkVersion 26
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            //runProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+            //proguardFiles 'proguard.cfg'
+/*
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def date = new Date();
+                    def formattedDate = date.format('yyyyMMdd-HHmmss')
+                    output.outputFile = new File(output.outputFile.parent,
+                            output.outputFile.name.replace("app-release", "Brief-" + formattedDate)
+                    )
+                }
+            }
+*/
+        }
+
+
+
+    }
+}
+
+dependencies {
+    //compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile files('libs/libphonenumber-5.8.jar')
+    compile files('libs/briefmail.jar')
+    compile 'com.google.android.gms:play-services:6.5.+'
+
+}
+

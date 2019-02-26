@@ -1,0 +1,144 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:clickable="true"
+
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    
+    >
+
+    <RelativeLayout 
+        android:id="@+id/notes_item_toolbar" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/actionbar_notes_podbg"
+	    android:padding="5dp"
+        >
+        <run.brief.b.bButton 
+		    android:id="@+id/notes_item_save"
+		    android:text="@string/label_save" 
+		    android:layout_alignParentRight="true"
+		    android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:drawableLeft="@drawable/content_save"
+	    />
+        <run.brief.b.bButton 
+		    android:id="@+id/notes_item_update"
+		    android:text="@string/label_update" 
+		    android:layout_alignParentRight="true"
+		    android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:drawableLeft="@drawable/content_save"
+			android:visibility="gone"
+	    />
+		<LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:padding="0dp"
+		    android:orientation="horizontal"
+		    >
+		<run.brief.b.bImageButton 
+		    android:id="@+id/sms_i_smile"
+		    android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:src="@drawable/i_smile"
+			android:layout_margin="0dp"
+			android:layout_gravity="center|top"
+			
+	    />
+        <run.brief.b.bButton 
+		    android:id="@+id/notes_item_file"
+		    android:text="" 
+		    android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:drawableLeft="@drawable/content_attachment"
+	    />
+        <!-- 
+        <run.brief.b.bButton 
+		    android:id="@+id/notes_item_photo"
+		    android:text="" 
+		    android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:drawableLeft="@drawable/device_access_camera"
+	    />
+        
+        <run.brief.b.bButton 
+		    android:id="@+id/notes_item_video"
+
+		    android:text="" 
+		    android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:drawableLeft="@drawable/device_access_video"
+	    />
+        -->
+        <run.brief.b.bButton 
+		    android:id="@+id/notes_item_voice"
+		    android:text="" 
+		    android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:drawableLeft="@drawable/device_access_mic"
+            android:visibility="gone"
+	    />
+
+		</LinearLayout>
+    </RelativeLayout>
+    <run.brief.b.bEditText
+        android:id="@+id/note_item_text"
+        android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:inputType="textMultiLine|textAutoCorrect"
+        android:maxHeight="250dp"
+        android:imeOptions="flagNoExtractUi"
+        >
+
+        <requestFocus />
+    </run.brief.b.bEditText>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        >
+        <run.brief.b.bButton 
+		    android:id="@+id/notes_set_alert"
+			android:layout_alignParentRight="true"
+		    android:text="@string/label_set" 
+		    android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:drawableRight="@drawable/device_access_alarms"
+	    />
+        <ImageView 
+            android:id="@+id/notes_alert_image"
+		    android:layout_width="50dp"
+			android:layout_height="50dp"
+            />
+        <TextView 
+            android:id="@+id/notes_alert_text"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:paddingLeft="50dp"
+            />
+    </RelativeLayout>
+	<GridView android:id="@+id/notes_files"
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+
+	   android:padding="0dp"
+	   android:layout_margin="0dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+	/>
+	
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,112 @@
+[
+    {
+        "outputFile": "/home/coops/android-projects/Brief/app/build/intermediates/res/merged/debug/values-v19/values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 921
+                },
+                "from": {
+                    "file": "/home/coops/android-projects/Brief/app/src/main/res/values-v19/styles.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 926,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1160
+                },
+                "from": {
+                    "file": "/home/coops/android-projects/Brief/app/src/main/res/values-v19/styles.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2466,
+                        "endLine": 54,
+                        "endColumn": 12,
+                        "endOffset": 2700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1165,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 1739
+                },
+                "from": {
+                    "file": "/home/coops/android-projects/Brief/app/src/main/res/values-v19/styles.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1887,
+                        "endLine": 50,
+                        "endColumn": 12,
+                        "endOffset": 2461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1744,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 1948
+                },
+                "from": {
+                    "file": "/home/coops/android-projects/Brief/app/src/main/res/values-v19/styles.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2771,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 2975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1953,
+                    "endLine": 58,
+                    "endColumn": 12,
+                    "endOffset": 2947
+                },
+                "from": {
+                    "file": "/home/coops/android-projects/Brief/app/src/main/res/values-v19/styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 887,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 1881
+                    }
+                }
+            }
+        ]
+    }
+]

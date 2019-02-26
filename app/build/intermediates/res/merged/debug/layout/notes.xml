@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    android:id="@+id/home_layout"
+    android:clickable="true"
+    >
+
+	<ListView android:id="@+id/notes_list"
+	   android:layout_width="match_parent"
+	   android:layout_height="match_parent"
+	   android:layout_alignParentTop="true"
+	   android:layout_alignParentBottom="true"
+	   android:padding="3dp"
+	   android:layout_margin="0dp"
+		android:divider="@null"
+		android:dividerHeight="0dp"
+	/>
+<LinearLayout 
+		    android:id="@+id/empty_notes"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="10dp"
+		    android:orientation="vertical"
+		    android:visibility="gone"
+		    android:gravity="center"
+	    android:paddingLeft="30dp"
+	    android:paddingRight="30dp"
+		    >
+	<TextView
+        android:id="@+id/notes_empty_head"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/no_data" 
+	    style="@style/field_title"
+	    android:gravity="center"
+	    android:layout_marginBottom="20dp"
+	    />
+    <ImageView
+        android:id="@+id/info_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empty_splash"
+        android:gravity="center"
+         />
+	<TextView 
+	    android:id="@+id/notes_empty_new"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/no_data_notes" 
+	    android:gravity="center"
+	    android:layout_marginTop="20dp"
+	    android:drawableBottom="@drawable/content_new_event"
+	    />
+</LinearLayout>
+
+</RelativeLayout>

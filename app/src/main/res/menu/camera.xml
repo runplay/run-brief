@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/actionbar_news"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_new_photo"
+        app:showAsAction="always"
+        android:icon="@drawable/device_access_camera"
+        android:title="@string/label_camera"/>
+</menu>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/actionbar_list"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_go_explore"
+        app:showAsAction="always"
+        android:icon="@drawable/collections_collection"
+        android:title="@string/label_select"
+        />
+</menu>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/actionbar_list"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_email_attach"
+        app:showAsAction="always"
+        android:icon="@drawable/content_new_attachment"
+        android:title="@string/label_files"
+        />
+    <item
+        android:id="@+id/action_email_send"
+        app:showAsAction="always"
+        android:icon="@drawable/social_send_now"
+        android:title="@string/label_email"
+        />
+
+        <!-- 
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/action_search"
+        android:title="@string/action_search"/>
+    -->
+
+</menu>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/actionbar_list"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_select_account"
+        app:showAsAction="always"
+        android:icon="@drawable/content_select_all"
+        android:title="@string/label_select"
+        />
+
+    <item
+        android:id="@+id/action_email_new"
+        app:showAsAction="always"
+        android:icon="@drawable/social_send_now"
+        android:title="@string/label_new"/>
+        <!--
+            <item
+        android:id="@+id/action_email_folders"
+        android:showAsAction="always"
+        android:icon="@drawable/collections_collection"
+        />
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/action_search"
+        android:title="@string/action_search"/>
+    -->
+
+</menu>

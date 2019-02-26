@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:background="@color/background"
+    android:clickable="true"
+    android:orientation="vertical"
+    >
+	<LinearLayout 
+	    android:id="@+id/bsend_show_brief"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    />
+	
+	<TextView 
+	    android:id="@+id/bsend_status"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/red"
+	    />
+    <Button
+        android:id="@+id/bsend_dialog_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/label_retry"
+        android:drawableLeft="@drawable/navigation_refresh"
+        style="@style/popup_button"
+        android:gravity="left|center_vertical"
+        />
+    <Button 
+        android:id="@+id/bsend_dialog_delete"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+	    android:text="@string/menu_delete"
+	    android:drawableLeft="@drawable/content_discard"
+	    style="@style/popup_button"
+	    android:gravity="left|center_vertical"
+        />
+
+    <Button 
+        android:id="@+id/dialog_cancel"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+	    android:text="@string/label_cancel"
+	    android:drawableLeft="@drawable/content_remove"
+	    style="@style/popup_button_close"
+	    android:gravity="left|center_vertical"
+	    
+        />
+
+</LinearLayout>

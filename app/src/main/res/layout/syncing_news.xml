@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/syncing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="10dp"
+    android:background="@color/actionbar_news_alpha"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    >
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+         />
+    <TextView
+        android:id="@+id/syncing_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_syncing"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/progressBar1"
+        android:paddingLeft="15dp"
+        />
+</RelativeLayout>

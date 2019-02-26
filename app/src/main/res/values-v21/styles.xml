@@ -1,0 +1,41 @@
+<resources>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorPrimaryDark">@color/brand</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+
+        <item name="actionBarTheme">@style/ToolbarStyle</item>
+        <item name="android:actionBarStyle">@style/ToolbarStyle</item>
+
+        <item name="actionBarPopupTheme">@style/ToolbarStyle</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle_Custom</item>
+        <item name="android:dialogTitle">@style/DialogWindowTitle_Custom</item>
+
+    </style>
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorPrimaryDark">@color/brand</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowBackground">@color/browse_brand</item>
+
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:textColor">@color/actionbar_text</item>
+        <item name="android:editTextColor">@color/actionbar_text</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+    </style>
+</resources>

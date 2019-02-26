@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    >
+     <item>
+		<shape 
+		  android:shape="rectangle">
+		  <solid android:color="#22000000" />
+		</shape>
+	</item>
+	<item>
+	    <inset
+	        android:insetBottom="3dp"
+	        android:insetLeft="0dp"
+	        android:insetRight="0dp"
+	        android:insetTop="0dp" >
+			<shape 
+			  android:shape="rectangle">
+			  <solid android:color="#BBFFFFFF" />
+			</shape>
+	    </inset>
+	</item>
+</layer-list>
+
+
+<!-- 
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    >
+     <item>
+		<shape 
+		  android:shape="rectangle">
+		  <solid android:color="#CCCCCC" />
+		</shape>
+	</item>
+	<item>
+	    <inset
+	        android:insetBottom="3dp"
+	        android:insetLeft="0dp"
+	        android:insetRight="0dp"
+	        android:insetTop="0dp" >
+			<shape 
+			  android:shape="rectangle">
+			  <solid android:color="#FFFFFF" />
+			</shape>
+	    </inset>
+	</item>
+</layer-list>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item>
+		<shape
+		  android:shape="rectangle">
+		  <gradient android:startColor="#ffffff" 
+		    android:endColor="#dddddd"
+		    android:angle="225"
+		    android:centerY="0" />
+		  <corners android:radius="2dp" />
+		  <stroke android:width="2px" android:color="#555555" />
+		</shape>
+	</item>
+	<item>
+	    <inset
+	        android:insetBottom="-3dp"
+	        android:insetLeft="0dp"
+	        android:insetRight="-3dp"
+	        android:insetTop="0dp" >
+	        <shape>
+	            <stroke
+	                android:width="2dp"
+	                android:color="#DDD" />
+	 
+	            <solid
+	                android:color="@android:color/transparent" />
+	        </shape>
+	    </inset>
+	</item>
+</layer-list>
+ -->

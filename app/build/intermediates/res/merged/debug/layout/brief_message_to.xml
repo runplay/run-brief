@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="@color/background"
+    
+    tools:context=".Main$BriefTo">
+    <RelativeLayout 
+		android:id="@+id/contacts_selected_mode"
+	   android:layout_width="match_parent"
+	   android:layout_height="50dp"
+	   android:orientation="horizontal"
+	   android:visibility="gone"
+        >
+        <run.brief.b.bButton
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+            android:id="@+id/contacts_selected_clear"
+            android:drawableLeft="@drawable/navigation_cancel"
+            android:layout_alignParentRight="true"
+            />
+        <TextView 
+		   android:layout_width="match_parent"
+		   android:layout_height="wrap_content"
+		   android:text="@string/label_send_to"
+            />
+        <RelativeLayout 
+            android:id="@+id/contacts_selected_list"
+		   android:layout_width="match_parent"
+		   android:layout_height="wrap_content"
+		   android:paddingTop="10dp"
+            >
+            
+        </RelativeLayout>
+    </RelativeLayout>
+
+	<ListView android:id="@+id/contacts_name_list"
+	   android:layout_width="match_parent"
+	   android:layout_height="match_parent"
+	   android:gravity="center_vertical"
+	   android:cacheColorHint="#00000000"
+	   android:textStyle="bold"
+	   android:textSize="12sp"
+	   android:textColor="#000000"
+	   android:layout_margin="0dp"
+	   android:padding="0dp"
+	   />
+</LinearLayout>

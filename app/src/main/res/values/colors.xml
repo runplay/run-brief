@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#009900</color>
+    <color name="brand_light">#00cc00</color>
+    <color name="actionbar_brief_message">#86E070</color>
+    <color name="actionbar_brief_home">#ffffff</color>
+
+
+    <color name="actionbar_notes">#ffff66</color>
+    <color name="actionbar_notes_pod">#d0ce2b</color>
+    <color name="actionbar_notes_podbg">#FFFFCC</color>
+
+    <color name="actionbar_email">#4dc5ff</color>
+    <color name="actionbar_email_alpha">#B0E0F5FF</color>
+    <color name="actionbar_email_pod">#0591A6</color>
+    <color name="actionbar_email_podbg">#E0F5FF</color>
+
+    <color name="actionbar_news">#FFE6E6</color>
+    <color name="actionbar_news_alpha">#B0FFE6E6</color>
+    <color name="actionbar_news_pod">#A94737</color>
+    <color name="actionbar_news_podbg">#FFE6E6</color>
+
+    <color name="actionbar_sms">#bf80ff</color>
+    <color name="actionbar_sms_pod">#990099</color>
+    <color name="actionbar_sms_podbg">#F5EBFF</color>
+
+    <color name="actionbar_phone">#97e897</color>
+    <color name="actionbar_phone_pod">#3ebd3e</color>
+    <color name="actionbar_phone_podbg">#EDFBED</color>
+
+    <color name="actionbar_twitter">#4099FF</color>
+    <color name="actionbar_facebook">#ffffff</color>
+    <color name="actionbar_linkedin">#ffffff</color>
+    <color name="actionbar_basic">#E6E6E6</color>
+    <color name="actionbar_general">#ffffff</color>
+
+
+    <color name="actionbar_text">#333333</color>
+
+<!--  #FF8726 -->
+    <color name="browse_brand_alpha50">#80FF9900</color>
+    <color name="browse_brand_alpha25">#40FF9900</color>
+    <color name="browse_brand_alpha75">#B0FF9900</color>
+    <color name="browse_brand">#FF9900</color>
+    <color name="browse_brand_dark">#b87514</color>
+    <color name="zip_header_bg">#88FF9900</color>
+
+    <color name="brand_bread">#FF0000</color>
+
+    <color name="fab_explore_colour">#5677fc</color>
+
+    <color name="swipe_color_1">#009900</color>
+    <color name="swipe_color_2">#009999</color>
+    <color name="swipe_color_3">#004400</color>
+    <color name="swipe_color_4">#990000</color>
+    <!--
+    <color name="swipe_color_1">#0000FF</color>
+    <color name="swipe_color_2">#00FFFF</color>
+    <color name="swipe_color_3">#00FF00</color>
+    <color name="swipe_color_4">#FF0000</color>
+    -->
+    <color name="transparent">#00FFFFFF</color>
+    
+    <color name="menu_overlay">#11000000</color>
+    <color name="background">#FFFFFF</color>
+    <color name="background_notes">#FFFFEE</color>
+    
+	<color name="item_selected_brief">#806e936e</color>
+
+    <color name="emo_grid_bg">#324341</color>
+    <color name="livecomm_connected">#009900</color>
+    <color name="livecomm_warn">#ff9900</color>
+    <color name="livecomm_disconnected">#990000</color>
+
+    <color name="emoticon_color_alpha">#D0FFFFFF</color>
+
+    <color name="navigation">#cccccc</color>
+    <color name="navigationalpha">#33000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_alpha">#80FFFFFF</color>
+    <color name="white_alpha_gotop">#E0FFFFFF</color>
+    <color name="white_alpha_strong">#C0FFFFFF</color>
+    <color name="white_alpha_light">#40FFFFFF</color>
+    <color name="white_alpha_vlight">#20FFFFFF</color>
+    <color name="alpha">#00000000</color>
+    <color name="copy_to_clip">#FFFFCC</color>
+    
+    <color name="red">#990000</color>
+    <color name="red_alpha">#D00000</color>
+    <color name="green">#009900</color>
+    <color name="black">#000000</color>
+    <color name="green_alpha">#80009000</color>
+    <color name="grey">#666666</color>
+    <color name="grey_alpha">#80999999</color>
+    <color name="grey_alpha_light">#40999999</color>
+    <color name="grey_light">#DDDDDD</color>
+    <color name="black_alpha">#80000000</color>
+    <color name="black_alpha_light">#40000000</color>
+    <color name="black_alpha_vlight">#20000000</color>
+    <color name="black_alpha_strong">#B0000000</color>
+    <color name="actionbar_bg">#ffffff00</color>
+    <color name="actionbar_list">#ffffff</color> 
+    
+    <color name="menu_slide_bg">#DCE9DA</color>
+    <color name="menu_slide_divider_bottom">#C9DDC6</color>
+    <color name="menu_slide_divider_top">#EBF2EA</color>
+    <color name="menu_slide_bg_alpha">#DDDCE9DA</color>
+    <color name="menu_bg">#EEEEEE</color>
+    <color name="menu_divider">#333333</color>
+    <color name="menu_text">#ffffff</color>
+    <color name="notes_bg">#555555</color>
+    <color name="brief_green">#009900</color>
+    <color name="brief_text_white">#ffffff</color>
+    <color name="brief_text_dark">#333333</color>
+ </resources>

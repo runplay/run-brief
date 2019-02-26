@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white_alpha"
+    >
+    <TextView 
+        android:id="@+id/email_date"
+		android:textSize="12sp"
+		android:layout_width="50dp"
+		android:layout_height="25dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="3dp"
+		android:alpha="0.4"
+        />
+	<RelativeLayout
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="3dp"
+	    >
+		<TextView
+			android:id="@+id/email_list_from" 
+			android:layout_width="match_parent" 
+			android:layout_height="20dp"
+            android:ellipsize="end"
+
+			/>
+		<TextView
+			android:id="@+id/email_list_subject"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/email_list_from"
+			android:textSize="12sp"
+			/>
+		<ImageView 
+	         android:id="@+id/email_status_img"
+	         android:layout_width="20dp"
+	         android:layout_height="20dp"
+	         android:layout_alignParentRight="true"
+	         />
+	</RelativeLayout>
+	
+</LinearLayout>
